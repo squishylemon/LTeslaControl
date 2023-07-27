@@ -6,5 +6,11 @@ namespace LTeslaControl
         {
             InitializeComponent();
         }
+
+        private void loginToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            loginForm login = new loginForm();
+            login.Show();
+        }
     }
 }
